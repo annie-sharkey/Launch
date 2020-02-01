@@ -5,31 +5,35 @@ just the names.
 */
 
 
-    var people = [
-        {
-        name: "Chris",
-        age: 18,
-        },
-        {
-        name: "Jamal",
-        age: 30,
-        },
-        {
-        name: "Trevor",
-        age: 21,
-        },
+var people = [
+    {
+    name: "Chris",
+    age: 18,
+    },
+    {
+    name: "Jamal",
+    age: 30,
+    },
+    {
+    name: "Trevor",
+    age: 21,
+    },
     ];
 
 
     function arrFunc(arrOfObj){
-        for (let key in people){
-            delete key.age;
-        }
+        arrOfObj.map(function(item) { 
+        delete item.age; 
+        return arrOfObj; 
+});
         return arrOfObj;
     }
 
 
-    arrFunc(people);
+    console.log(arrFunc(people));
+
+
+    
 
 
     
