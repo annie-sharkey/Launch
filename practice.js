@@ -8,7 +8,7 @@ just the names.
 //1 February 2020
 //practice.js
 
-people_array = [
+const people_array = [
     {
         name : "Jack",
         age : "18"
