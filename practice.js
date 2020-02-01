@@ -15,7 +15,9 @@ let people = [
 names = (persons) => {
     let namesArr = [];
     for (let i=0; i<persons.length; i++) {
-        namesArr[i]=person[i].name;
+        namesArr[i]=persons[i].name;
     }
     return namesArr;
 }
+
+console.log(names(people));
