@@ -10,7 +10,7 @@ var p2 = {name:"Jan", age:"40"};
 var p3 = {name:"Jeff", age:"60"};
 
 
-let our_array = []
+let our_array = [p1,p2,p3]
 
 
 function nameSearch(our_array){ 
