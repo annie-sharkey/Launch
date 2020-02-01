@@ -11,7 +11,7 @@ person3:{name:"John Adams", age:285}
 
 
 function nameList(list){
-  let objnames = []
+  let objnames = [];
     for(let i in list){
         objnames.push(list[i].name);
     }
