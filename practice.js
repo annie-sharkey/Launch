@@ -15,7 +15,7 @@ function nameList(list){
     for(let i in list){
         objnames.push(list[i].name);
     }
-  return objnames
+  return objnames;
 }
 
 console.log(nameList(objects));
